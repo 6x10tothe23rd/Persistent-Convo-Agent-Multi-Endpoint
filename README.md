@@ -34,12 +34,15 @@ pip install -r requirements.txt
 
 If you don't already have an OpenAI API key, sign up for one on the [OpenAI website](https://beta.openai.com/signup/). After signing up, you can find your API key in the [API keys section](https://beta.openai.com/account/api-keys/) of your OpenAI account.
 
-### 5. Create a Discord bot and obtain a bot token
+### 5. Create a Discord bot, obtain a bot token, and invite the bot to your server
 
 - Go to the [Discord Developer Portal](https://discord.com/developers/applications) and log in with your Discord account.
 - Click the "New Application" button and give your application a name.
 - Navigate to the "Bot" tab and click "Add Bot".
 - Copy the token under the "Bot" section. This is your Discord bot token.
+- Go to the "OAuth2" tab, scroll down to the "Scopes" section, and check the "bot" scope.
+- In the "Bot Permissions" section, select the necessary permissions for your bot. For basic functionality, you'll need at least "Send Messages" and "Read Message History".
+- Copy the generated URL from the "Scopes" section and paste it into your browser. This will take you to a page where you can invite the bot to your Discord server. Choose the server you want to add the bot to and authorize the bot.
 
 ### 6. Configure API keys
 

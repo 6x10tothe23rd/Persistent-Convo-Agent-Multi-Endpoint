@@ -8,31 +8,48 @@ Feel free to explore the codebase and modify it as per your requirements. You ca
 
 ## Setup Instructions
 
-1. Clone the repository or download the ZIP file and extract the contents to a local folder.
+### 1. Clone the repository or download the ZIP file
+
+Clone the repository or download the ZIP file and extract the contents to a local folder.
 
 ```bash
 git clone https://github.com/6x10tothe23rd/Persistent-Convo-Agent-Multi-Endpoint.git
 ```
 
-2. Change to the repository directory.
+### 2. Change to the repository directory
 
 ```bash
 cd Persistent-Convo-Agent-Multi-Endpoint
 ```
 
-3. Install the required packages using pip.
+### 3. Install the required packages
+
+Use pip to install the required packages.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Copy the `secretkeys.example.json` file to `secretkeys.json`.
+### 4. Obtain an OpenAI API key
+
+If you don't already have an OpenAI API key, sign up for one on the [OpenAI website](https://beta.openai.com/signup/). After signing up, you can find your API key in the [API keys section](https://beta.openai.com/account/api-keys/) of your OpenAI account.
+
+### 5. Create a Discord bot and obtain a bot token
+
+- Go to the [Discord Developer Portal](https://discord.com/developers/applications) and log in with your Discord account.
+- Click the "New Application" button and give your application a name.
+- Navigate to the "Bot" tab and click "Add Bot".
+- Copy the token under the "Bot" section. This is your Discord bot token.
+
+### 6. Configure API keys
+
+Copy the `secretkeys.example.json` file to `secretkeys.json`.
 
 ```bash
 cp secretkeys.example.json secretkeys.json
 ```
 
-5. Open the `secretkeys.json` file and replace the placeholder values with your actual API keys.
+Open the `secretkeys.json` file and replace the placeholder values with your actual API keys.
 
 ```json
 {
@@ -41,6 +58,11 @@ cp secretkeys.example.json secretkeys.json
 }
 ```
 
+## Usage
+
+After completing the setup, you can run the `bot_base.py` script to start the bot and connect it to your Discord server.
+
+Feel free to explore the code in `bot_base.py` and modify it to suit your needs.
 ## Usage
 
 This Discord bot is designed to be versatile and adaptable, making it simple to use in various scenarios. To interact with the bot, simply send a message in a text channel where the bot has been granted permission to read and send messages. The bot will process your message and generate a response using the GPT-4 or GPT-3.5 Turbo language models. It maintains context across conversations and can handle multiple conversation streams simultaneously.

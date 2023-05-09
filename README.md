@@ -8,8 +8,10 @@ This repository contains the essential code, configuration files, and instructio
 - Adding support for Discord commands, opening up new possibilities to access specific functionality of the bot powered by the underlying LLM.
 - Making the bot more command-aware and able to perform server admin operations for you, recognizing who's an admin and who's not.
 - Removing hard-coded admin credentials, to allow for flexible admin management.
+- Streaming responses back to the users by editing the message it's sending as new chunks come back from the api call, taking advantage of the async support throughout the project.
+- Integrating Langchain more deeply into the bot's functionality to leverage the massive capabilities of that project.
 
-Feel free to explore the codebase and modify it as per your requirements. You can experiment with different configurations, language models, and other settings to create the perfect bot for your Discord community. This bot offers an excellent opportunity to leverage state-of-the-art AI language models to create a unique and dynamic user experience on your Discord server.
+This bot offers an excellent opportunity to leverage state-of-the-art AI language models and other technologies to create a unique and dynamic user experience on your Discord server. With the planned changes, it will become even more powerful and flexible, providing you with enhanced control and customization options.
 
 ## Setup Instructions
 

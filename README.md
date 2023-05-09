@@ -63,11 +63,6 @@ Open the `secretkeys.json` file and replace the placeholder values with your act
 
 ## Usage
 
-After completing the setup, you can run the `bot_base.py` script to start the bot and connect it to your Discord server.
-
-Feel free to explore the code in `bot_base.py` and modify it to suit your needs.
-## Usage
-
 This Discord bot is designed to be versatile and adaptable, making it simple to use in various scenarios. To interact with the bot, simply send a message in a text channel where the bot has been granted permission to read and send messages. The bot will process your message and generate a response using the GPT-4 or GPT-3.5 Turbo language models. It maintains context across conversations and can handle multiple conversation streams simultaneously.
 
 To utilize the bot's capabilities in your own projects, you can import the `bot_base.py` module and create a new instance of the `GeneralBot` class. By customizing the bot's configurations, you can tailor the bot's behavior to your specific needs. Here are some quick examples of how you can use the `GeneralBot` class in your own code:

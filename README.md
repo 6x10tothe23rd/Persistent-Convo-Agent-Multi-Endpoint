@@ -38,7 +38,11 @@ pip install -r requirements.txt
 
 ### 4. Obtain an OpenAI API key
 
-If you don't already have an OpenAI API key, sign up for one on the [OpenAI website](https://beta.openai.com/signup/). After signing up, you can find your API key in the [API keys section](https://beta.openai.com/account/api-keys/) of your OpenAI account.
+To use GPT-4 API (8K version), you'll need an OpenAI API key. Sign up for one on the [OpenAI website](https://beta.openai.com/signup/) if you haven't already. Keep in mind that GPT-4 is currently in a limited beta and only accessible to those who have been granted access. You can join the waitlist to get access when capacity is available or apply for subsidized access via OpenAI's Researcher Access Program if you are studying the societal impact of AI or AI alignment issues.
+
+If you have been granted access to the GPT-4 API (8K version), find your API key in the [API keys section](https://beta.openai.com/account/api-keys/) of your OpenAI account. Note that OpenAI is processing requests for the 8K and 32K engines at different rates based on capacity, so you may receive access to them at different times.
+
+In the meantime, you can modify the code by finding and replacing `"gpt-4"` with `"gpt-3.5-turbo"` in the `base_bot.py` file. This will force the bot to run only using the basic turbo model, which results in degraded personality coherence but also siginificantly faster performance.
 
 ### 5. Create a Discord bot, obtain a bot token, and invite the bot to your server
 

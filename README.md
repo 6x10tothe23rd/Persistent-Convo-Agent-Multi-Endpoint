@@ -1,6 +1,6 @@
 # Persistent Conversational Agent (PCA) with support for Multiple-Endpoints
 
-This project is designed to create a highly customizable Discord bot that utilizes the powerful GPT-4 and GPT-3.5 Turbo language models by OpenAI. The bot is designed to provide users with an interactive and engaging experience, while maintaining context across multiple conversations and channels.
+This project is designed to create a highly customizable Discord bot that utilizes the powerful GPT-4 and GPT-3.5 Turbo language models by OpenAI. The bot is designed to provide users with an interactive and engaging experience, while maintaining context across multiple conversations and channels. Messages are streamed back to the user as the chunks come in, so there's no more waiting to see if the bot is taking forever or just crashed.
 
 This repository contains the essential code, configuration files, and instructions required to set up and deploy the bot on your own Discord server. By following the setup instructions, you can create a personalized bot that can be easily integrated with your server for enhanced user interactions and engaging conversations. The bot can also handle multiple conversation streams and manage its history, making it highly versatile and adaptable to various use cases.
 
@@ -8,7 +8,6 @@ This repository contains the essential code, configuration files, and instructio
 - Adding support for Discord commands, opening up new possibilities to access specific functionality of the bot powered by the underlying LLM.
 - Making the bot more command-aware and able to perform server admin operations for you, recognizing who's an admin and who's not.
 - Removing hard-coded admin credentials, to allow for flexible admin management.
-- Streaming responses back to the users by editing the message it's sending as new chunks come back from the api call, taking advantage of the async support throughout the project.
 - Integrating Langchain more deeply into the bot's functionality to leverage the massive capabilities of that project.
 
 This bot offers an excellent opportunity to leverage state-of-the-art AI language models and other technologies to create a unique and dynamic user experience on your Discord server. With the planned changes, it will become even more powerful and flexible, providing you with enhanced control and customization options.

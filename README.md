@@ -1,4 +1,4 @@
-# My Bot Repository
+# Persistent Conversational Agent (PCA) with support for Multiple-Endpoints being processed simultaneously using shared memory.
 
 This repository contains the code for a Discord bot based on GPT-4 and GPT-3.5 Turbo models. To set up and use this bot, follow the instructions below.
 

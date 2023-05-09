@@ -1,6 +1,10 @@
-# Persistent Conversational Agent (PCA) with support for Multiple-Endpoints being processed simultaneously using shared memory.
+# Persistent Conversational Agent (PCA) with support for Multiple-Endpoints
 
-This repository contains the code for a Discord bot based on GPT-4 and GPT-3.5 Turbo models. To set up and use this bot, follow the instructions below.
+This project is designed to create a highly customizable Discord bot that utilizes the powerful GPT-4 and GPT-3.5 Turbo language models by OpenAI. The bot is designed to provide users with an interactive and engaging experience, while maintaining context across multiple conversations and channels.
+
+This repository contains the essential code, configuration files, and instructions required to set up and deploy the bot on your own Discord server. By following the setup instructions, you can create a personalized bot that can be easily integrated with your server for enhanced user interactions and engaging conversations. The bot can also handle multiple conversation streams and manage its history, making it highly versatile and adaptable to various use cases.
+
+Feel free to explore the codebase and modify it as per your requirements. You can experiment with different configurations, language models, and other settings to create the perfect bot for your Discord community. This bot offers an excellent opportunity to leverage state-of-the-art AI language models to create a unique and dynamic user experience on your Discord server.
 
 ## Setup Instructions
 

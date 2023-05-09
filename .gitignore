@@ -1,0 +1,10 @@
+/build
+/Configs
+/dist
+/Icons
+/Logs
+/LTM
+/miku.py
+/miku.spec
+/secretkeys.json
+/__pycache__

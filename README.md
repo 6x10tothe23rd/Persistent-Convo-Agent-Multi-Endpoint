@@ -4,6 +4,11 @@ This project is designed to create a highly customizable Discord bot that utiliz
 
 This repository contains the essential code, configuration files, and instructions required to set up and deploy the bot on your own Discord server. By following the setup instructions, you can create a personalized bot that can be easily integrated with your server for enhanced user interactions and engaging conversations. The bot can also handle multiple conversation streams and manage its history, making it highly versatile and adaptable to various use cases.
 
+## Planned Changes:
+- Adding support for Discord commands, opening up new possibilities to access specific functionality of the bot powered by the underlying LLM.
+- Making the bot more command-aware and able to perform server admin operations for you, recognizing who's an admin and who's not.
+- Removing hard-coded admin credentials, to allow for flexible admin management.
+
 Feel free to explore the codebase and modify it as per your requirements. You can experiment with different configurations, language models, and other settings to create the perfect bot for your Discord community. This bot offers an excellent opportunity to leverage state-of-the-art AI language models to create a unique and dynamic user experience on your Discord server.
 
 ## Setup Instructions

@@ -43,6 +43,40 @@ cp secretkeys.example.json secretkeys.json
 
 ## Usage
 
-After completing the setup, you can run the `bot_base.py` script to start the bot and connect it to your Discord server.
+This Discord bot is designed to be versatile and adaptable, making it simple to use in various scenarios. To interact with the bot, simply send a message in a text channel where the bot has been granted permission to read and send messages. The bot will process your message and generate a response using the GPT-4 or GPT-3.5 Turbo language models. It maintains context across conversations and can handle multiple conversation streams simultaneously.
 
-Feel free to explore the code in `bot_base.py` and modify it to suit your needs.
+To utilize the bot's capabilities in your own projects, you can import the `bot_base.py` module and create a new instance of the `GeneralBot` class. By customizing the bot's configurations, you can tailor the bot's behavior to your specific needs. Here are some quick examples of how you can use the `GeneralBot` class in your own code:
+
+### Example 1: Creating a new instance of the GeneralBot class
+
+```python
+from bot_base import GeneralBot
+
+my_bot = GeneralBot(bot_name="MyBot", save_memory=True)
+```
+
+### Example 2: Interacting with the bot programmatically
+
+```python
+response = my_bot.chat(message="Hello, bot!", author_name="User")
+print(response)
+```
+
+### Example 3: Adding custom functionality
+
+You can subclass the `GeneralBot` class to add your custom functionality or override existing methods. For example:
+
+```python
+from bot_base import GeneralBot
+
+class MyCustomBot(GeneralBot):
+    async def on_message(self, message):
+        # Add custom functionality here
+        print("Custom functionality executed.")
+        # Call the parent class's on_message method
+        await super().on_message(message)
+
+my_custom_bot = MyCustomBot(bot_name="MyCustomBot", save_memory=True)
+```
+
+By importing the `bot_base.py` module and leveraging the `GeneralBot` class, you can create a powerful and versatile chatbot that can be easily integrated into your own projects or Discord servers. This allows you to create unique and engaging user experiences by harnessing the power of advanced AI language models.

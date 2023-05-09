@@ -80,3 +80,23 @@ my_custom_bot = MyCustomBot(bot_name="MyCustomBot", save_memory=True)
 ```
 
 By importing the `bot_base.py` module and leveraging the `GeneralBot` class, you can create a powerful and versatile chatbot that can be easily integrated into your own projects or Discord servers. This allows you to create unique and engaging user experiences by harnessing the power of advanced AI language models.
+
+### Example 4: Utilizing async support
+
+The `GeneralBot` class also provides asynchronous support for interacting with the bot. You can use the `a_chat()` method to asynchronously send messages to the bot and retrieve its response. Here's an example of how to use async support:
+
+```python
+import asyncio
+from bot_base import GeneralBot
+
+async def main():
+    my_bot = GeneralBot(bot_name="MyAsyncBot", save_memory=True)
+
+    response = await my_bot.a_chat(message="Hello, async bot!", author_name="User")
+    print(response)
+
+# Run the async main function
+asyncio.run(main())
+```
+
+By using the `a_chat()` method, you can take advantage of asynchronous programming techniques to create more efficient and responsive applications that integrate the bot's capabilities.
